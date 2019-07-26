@@ -1,0 +1,139 @@
+*{
+
+    box-sizing: border-box;
+    
+}
+
+html {
+
+    font-size: 62.5%;
+
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $m-size;
+    background:rgb(224,224,224)
+  
+}
+
+button{
+
+    cursor: pointer;
+    color: white;
+
+}
+
+button:disabled {
+
+    cursor: default;
+
+}
+
+.is-active{
+
+    font-weight: bold;
+
+}
+
+
+table {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+td, th {
+
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+
+    background-color: #dddddd;
+
+}
+
+
+ul{
+
+    list-style-type: none;
+    color: white !important;;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li {
+
+    list-style-type: none; 
+    margin: $s-size;
+
+}
+
+li a{
+
+    color: white;
+    text-decoration: none;
+    padding: none;
+
+}
+
+h1 a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+h1{
+
+    margin: 0;
+
+}
+
+
+input:focus{
+
+    outline: none;
+    
+}
+
+input[type=number]{
+
+    height: $xl-size;
+    border: 0;
+    border-bottom: 1px solid #ced8df5e;
+
+}
+
+textarea:focus{
+
+    outline: none;
+
+}
+
+h4 {
+
+    margin: 0;
+
+}
+
+select:focus{
+    outline: none;
+}
+
+select {
+
+    align-items: end;
+    white-space: none;
+
+}
+
+

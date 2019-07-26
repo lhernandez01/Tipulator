@@ -1,2 +1,37 @@
-# Tipulator
-This is an APP for calculate the tips that you will give in restaurants. You just need enter the amount given in the receipt and the app will show you the tips and grand total that you have to pay. This project has been constructed using ReactJS, Redux, Webpack and css.
+﻿# Tipulator
+
+https://tipulator.surge.sh
+
+## Repository
+
+1. Install dependencies
+
+```bash
+yarn install or npm install
+```
+
+2. Run Build Development (Compile Public folder)
+
+```bash
+yarn run build:dev or npm run build:dev
+```
+
+3. Run Development Server (Test server ambience)
+
+```bash
+yarn run dev-server or npm run dev-server
+```
+
+Running local
+
+```bash
+http://localhost:8080
+```
+
+## Production
+
+Run Build (Compile Public folder)
+
+```bash
+yarn run build:prod or npm run build:prod
+```

@@ -1,0 +1,193 @@
+
+ .screen{
+
+     margin:0;
+     text-align: center;
+     letter-spacing: 1px;
+     background: rgb(25,214,219);
+     background: linear-gradient(166deg, #16b5b9 0%, #4af1f4 100%);
+     padding-bottom: 10rem;
+     color: white;  
+
+ }
+
+ .total-text{
+
+    color: #ffffff8f;
+    font-weight: 100;
+
+ }
+
+ .screen h1 {
+
+    color: #ffffffe3;
+    font-size: 3.8rem;
+
+ }
+
+ .margin-text h1{
+
+     color: white;
+     font-size:5.8rem;
+
+ }
+
+ .margin-text {
+
+     padding-top: 5%;
+
+ }
+
+.input-text {
+
+    width: 100%;
+    
+}
+
+.section{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 8rem;
+    border-bottom: 1px solid #ced8df5e;
+
+  }
+
+.tips-label{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #ced8df5e;
+
+}
+
+.text-tips-left{
+
+    color: #98878B;
+    margin-left: $s-size;
+
+}
+
+.text-tips-right{
+
+    cursor: pointer;
+    color:red;
+    margin-right: $s-size;
+    
+}
+
+.span-text{
+
+    position: absolute;
+    z-index: 999;
+    padding-top: 85%;
+    padding-left: 55%;
+    color: #ccc;
+    font-size: $m-size;
+    
+}
+
+.container-radio {
+
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+/* Hide the browser's default radio button */
+.container-radio input {
+
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+/* Create a custom radio button */
+.checkmark {
+
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+/* On mouse-over, add a grey background color */
+.container-radio:hover input ~ .checkmark {
+
+    background-color: #ccc;
+
+    
+}
+.container-radio:hover input ~ .span-text{
+
+    color: black;
+
+}
+
+/* When the radio button is checked, add a blue background */
+.container-radio input:checked ~ .checkmark{
+
+    background-color: #5b45bd;
+    color: white;
+
+}
+
+.container-radio input:checked ~ .span-text{
+
+    color: white;
+
+}
+
+
+.porcent-val{
+    
+    margin-top: $m-size;
+    margin-left: -12%;
+    
+}
+
+input {
+
+    color: #757a7f;
+    padding: 0 0 0 $s-size;
+    letter-spacing: 1px;
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+
+    color: #b8babd;
+    letter-spacing: 1px;
+
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+
+    color: #b8babd;
+    letter-spacing: 1px;
+
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+
+    color: #b8babd;
+    letter-spacing: 1px;
+
+}
+
+:-moz-placeholder { /* Firefox 18- */
+
+    color: #b8babd;
+    letter-spacing: 1px;
+
+}
+
+
